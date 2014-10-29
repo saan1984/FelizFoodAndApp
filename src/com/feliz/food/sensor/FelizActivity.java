@@ -31,6 +31,6 @@ public class FelizActivity extends Activity {
         String authHeader = "Basic " +authEncoded;
         Map<String, String> headers = new HashMap<String, String>();
         headers.put("Authorization", authHeader);
-        webView.loadUrl("http://blri4w1012.blrl.sap.corp:8000/D3FoodSensor",headers);
+        webView.loadUrl("http://blri4w1012.blrl.sap.corp:8000/FoodReco",headers);
     }
 }
